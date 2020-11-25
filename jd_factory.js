@@ -67,7 +67,7 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
             await collectElectricity();
             await DailyElectricity();
             await share();
-            await addEnergy();
+            // await addEnergy();
             await showMsg();
         }
     }
